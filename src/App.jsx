@@ -5,6 +5,7 @@ import About from "./pages/about/About";
 import Shop from "./pages/shop/Shop";
 import ShopSingle from "./pages/shop-single/ShopSingle";
 import MainLayout from "./components/layouts/mainLayout/MainLayout";
+import Service from "./pages/services/Service";
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
           <Route path="/about" element={<About />} />
           <Route path="/shop" element={<Shop />} />
           <Route path="/shop/:id" element={<ShopSingle />} />
+          <Route path="/services" element={<Service />} />
         </Route>
       </Routes>
     </>
