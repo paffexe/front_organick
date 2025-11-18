@@ -1,5 +1,3 @@
-import React from "react";
-
 import video from "../../assets/services_pg/video/service-uhd_3840_2160_25fps.mp4";
 
 const VideoSection = () => {
